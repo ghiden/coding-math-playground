@@ -1,3 +1,7 @@
+# Coding Math Playground
+
+https://www.patreon.com/codingmath
+
 ## Setup
 
 npm install

@@ -6,8 +6,9 @@ import Ep2 from './episodes/ep2';
 import Ep3 from './episodes/ep3';
 
 const Home = () =>
-  <div>
+  <div className="home">
     <h1>Coding Math Playground</h1>
+    <h2><a href="https://www.patreon.com/codingmath">Coding Math</a></h2>
     <Links />
   </div>;
 
