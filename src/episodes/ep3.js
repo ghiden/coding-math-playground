@@ -1,8 +1,7 @@
-import React from 'react';
+import SimpleEpisode from './SimpleEpisode';
 
-class Lesson extends React.Component {
+class Episode extends SimpleEpisode {
   componentDidMount() {
-    console.log('ep3 did mount');
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
     const width = canvas.width = window.innerWidth;
@@ -17,9 +16,7 @@ class Lesson extends React.Component {
 
     let angle = 0;
 
-    animate();
-    
-    function animate() {
+    const animate = () => {
       let radius = baseRadius + Math.sin(angle) * offset;
       //let y = centerY + Math.sin(angle) * offset;
       //let x = centerX + Math.cos(angle) * offset;
@@ -35,11 +32,9 @@ class Lesson extends React.Component {
 
       requestAnimationFrame(animate);
     }
-  }
-  render() {
-    console.log('render3');
-    return (<canvas id="canvas"></canvas>);
+
+    animate();
   }
 }
 
-export default Lesson;
+export default Episode;

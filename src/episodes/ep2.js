@@ -1,6 +1,6 @@
-import React from 'react';
+import SimpleEpisode from './SimpleEpisode';
 
-class Lesson extends React.Component {
+class Episode extends SimpleEpisode {
   componentDidMount() {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
@@ -17,9 +17,6 @@ class Lesson extends React.Component {
       context.fillRect(x, y, 5, 5);
     }
   }
-  render() {
-    return (<canvas id="canvas"></canvas>);
-  }
 }
 
-export default Lesson;
+export default Episode;
