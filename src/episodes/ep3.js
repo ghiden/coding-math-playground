@@ -37,4 +37,6 @@ class Episode extends SimpleEpisode {
   }
 }
 
+Episode.title = 'More Trigonometry';
+
 export default Episode;

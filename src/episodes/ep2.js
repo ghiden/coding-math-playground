@@ -19,4 +19,6 @@ class Episode extends SimpleEpisode {
   }
 }
 
+Episode.title = 'Intro to Trigonometry';
+
 export default Episode;

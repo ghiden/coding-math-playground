@@ -16,4 +16,6 @@ class Episode extends SimpleEpisode {
   }
 }
 
+Episode.title = "Introduction"
+
 export default Episode;
