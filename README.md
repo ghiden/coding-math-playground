@@ -12,4 +12,4 @@ npm start
 
 ## Add Episodes
 
-Add a javascript file under ```src/episodes``` and edit ```src/App.js```.
+Add a javascript file under ```src/episodes``` and update ```src/episodes/index.js```.
